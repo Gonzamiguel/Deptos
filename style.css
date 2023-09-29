@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Lato&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+
+.background-imagen{
+    height: 100vh;
+    background: url(./pages/1105-31023-Departamentos-de-Lujo-en-el-corazon-de-San-Angelo-al-Norte-de-Merida-_\(8\).jpg);
+    background-position: center;
+    object-position: center;
+}
+
+.principal {
+    background-color: rgb(154, 146, 122);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.principal .texto{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 70px 70px 30px 70px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagenprincipal{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.grid1 {
+    background-color: rgb(154, 146, 122);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "textogrid    imagengrid"
+    "imagengrid2  textogrid2";
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.textogrid {
+    grid-area: textogrid;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    gap: 20px;
+}
+
+.textogrid h3{
+    font-size: 40px;
+}
+
+
+.imagengrid {
+    grid-area: imagengrid;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.textogrid2{
+    grid-area: textogrid2;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    gap: 20px;
+}
+
+.textogrid2 h3{
+    font-size: 40px;
+}
+
+.imagengrid2 {
+    grid-area: imagengrid2;
+    padding-left: 40px;
+}
+
+.piedepagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
